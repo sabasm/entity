@@ -1,0 +1,21 @@
+{
+  "name": "@smendivil/entity",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "keywords": ["entity", "nestjs", "typescript", "uuid", "base-entity", "singleton"],
+  "author": "Sabás Mendívil",
+  "description": "Entity base to be expanded",
+  "dependencies": {
+    "@nestjs/common": "^10.4.6",
+    "uuid": "^11.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

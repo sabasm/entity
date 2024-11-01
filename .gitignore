@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Build directories
+dist/
+build/
+
+# TypeScript files
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Coverage directory
+coverage/
+
+# Output from testing
+jest/
+coverage/
+nyc_output/
+
+# Ignore all .env files but keep sample files
+*.env.*
+!.env.example
