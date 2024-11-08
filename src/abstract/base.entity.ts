@@ -29,5 +29,3 @@ export abstract class BaseEntity implements IEntity {
         this.updatedAt = new Date();
     }
 }
-
-

@@ -7,6 +7,7 @@
     "dist"
   ],
   "scripts": {
+    "test:cov": "jest --coverage --config jest.config.js",
     "build": "tsc"
   },
   "license": "MIT",
@@ -26,5 +27,11 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@nestjs/testing": "^10.4.7",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
   }
 }
